@@ -1,0 +1,122 @@
+h1 { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif;
+	color: #000a9a; 
+	margin-bottom:-15px; 
+}
+h6 { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif;
+	color: #000a9a50; 
+	margin-bottom: 1px; 
+} 
+p { 
+	margin-bottom: 5px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid rgb(255, 0, 0); 
+	border-right: 1px solid rgb(255, 0, 0); 
+} 
+
+#b2 { 
+	border-bottom: 1px solid rgb(255, 0, 0); 
+	border-right: 1px solid rgb(255, 0, 0); 
+	border-left: 1px solid rgb(255, 0, 0); 
+} 
+
+#b3 { 
+	border-bottom: 1px solid rgb(255, 0, 0); 
+	border-left: 1px solid rgb(255, 0, 0); 
+} 
+
+#b4 { 
+	border-top: 1px solid rgb(255, 0, 0); 
+	border-bottom: 1px solid rgb(255, 0, 0); 
+	border-right: 1px solid rgb(255, 0, 0); 
+} 
+	
+#b5 { 
+	border: 1px solid rgb(255, 0, 0); 
+} 
+
+#b6 { 
+	border-top: 1px solid rgb(255, 0, 0); 
+	border-bottom: 1px solid rgb(255, 0, 0); 
+	border-left: 1px solid rgb(255, 0, 0); 
+} 
+
+#b7 { 
+	border-top: 1px solid rgb(255, 0, 0); 
+	border-right: 1px solid rgb(255, 0, 0); 
+} 
+
+#b8 { 
+	border-top: 1px solid rgb(255, 0, 0); 
+	border-right: 1px solid rgb(255, 0, 0); 
+	border-left: 1px solid rgb(255, 0, 0); 
+} 
+
+#b9 { 
+	border-top: 1px solid rgb(255, 0, 0); 
+	border-left: 1px solid rgb(255, 0, 0); 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 150px; 
+	height: 70px; 
+	border: 1px solid #000a9a; 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: whitesmoke; 
+	color: #000a9a; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: #000a9a; 
+	font-size: 20px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+} 
+
+
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: #000a9a; 
+	margin-bottom:-15px; 
+}
