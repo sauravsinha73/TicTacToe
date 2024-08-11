@@ -1,4 +1,5 @@
 # TicTacToe
+# Personal Project
 In this project, I have built a simple Tic-tac-toe game using JavaScript.
 
 The UI is designed using CSS so it is easy to create.
